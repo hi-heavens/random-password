@@ -19,3 +19,12 @@ function randomPassword() {
     }
     return password;
 }
+
+// This will enable the copy on click on the password buttons!
+function copyOne() {
+    navigator.clipboard.writeText(passwordOneEl.textContent);
+}
+
+function copyTwo() {
+    navigator.clipboard.writeText(passwordTwoEl.textContent);
+}
