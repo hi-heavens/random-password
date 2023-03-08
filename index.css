@@ -70,4 +70,9 @@ button:active {
   border: none;
   margin: 33px 25px 0 0;
   cursor: pointer;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #55f991;
 }
