@@ -15,7 +15,8 @@
     <div class="container">
       <h2 class="heading">Generate a <span>random password</span></h2>
       <p id="p-content">Never use an insecure password again.</p>
-      <button id="generate" onclick="generatePassword()">Generate passwords</button>
+      <button class="generate" onclick="generatePassword()">Generate passwords</button>
+      <input type="text" id="password-length-el" class="generate" placeholder="Enter Password Length">
       <div id="line"></div>
       <button class="random" id="passwordOne" onclick="copyOne()"></button>
       <button class="random" id="passwordTwo" onclick="copyTwo()"></button>

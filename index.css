@@ -37,7 +37,7 @@ body {
   margin-top: 20px;
 }
 
-#generate {
+.generate {
   background-color: #10b981;
   border: none;
   border-radius: 6px;
@@ -75,4 +75,15 @@ button:active {
   font-size: 16px;
   text-align: center;
   color: #55f991;
+  overflow: hidden;
+}
+
+input {
+    width: 230px;
+    cursor: none;
+    margin-left: 20px;
+}
+
+::placeholder {
+    color: #4b4b4b;
 }
