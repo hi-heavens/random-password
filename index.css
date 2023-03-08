@@ -21,9 +21,43 @@ body {
   font-size: 40px;
   color: #ffffff;
   width: 360px;
+  margin-bottom: 0;
+  line-height: 40px;
 }
 
 .heading span {
-    color: #4ADF86;
-    ;
+  color: #4adf86;
+}
+
+#p-content {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  color: #d5d4d8;
+  margin-top: 20px;
+}
+
+#generate {
+  background-color: #10b981;
+  border: none;
+  border-radius: 6px;
+  align-items: center;
+  padding: 10px 17px 10px 15px;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+#line {
+    width: 450px;
+    height: 1px;
+    margin-top: 40px;
+    border-bottom: 1px solid #2F3E53;
 }
