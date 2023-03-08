@@ -52,12 +52,22 @@ body {
 }
 
 button:active {
-    transform: scale(0.95);
+  transform: scale(0.95);
 }
 
 #line {
-    width: 450px;
-    height: 1px;
-    margin-top: 40px;
-    border-bottom: 1px solid #2F3E53;
+  width: 450px;
+  height: 1px;
+  margin-top: 40px;
+  border-bottom: 1px solid #2f3e53;
+}
+
+.random {
+  background: #273549;
+  border-radius: 6px;
+  width: 212px;
+  height: 42px;
+  border: none;
+  margin: 33px 25px 0 0;
+  cursor: pointer;
 }
