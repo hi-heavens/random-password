@@ -15,7 +15,6 @@ function generatePassword() {
 function randomPassword() {
     let password = "";
     let passwordLength = parseInt(passwordLengthEl.value) || 15;
-    console.log(passwordLength);
     
     for (let i = 0; i < passwordLength; i++)
     {

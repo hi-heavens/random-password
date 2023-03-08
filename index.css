@@ -1,9 +1,8 @@
 body {
   margin: 0;
-  background-image: url("images/robert-lukeman-_RBcxo9AU-U-unsplash.jpg");
-  /* height: 100vh; */
+  background-image: url("images/computing-desk.jpg");
   background-size: cover;
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(3px);
 }
 
 .container {
