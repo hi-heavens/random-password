@@ -1,3 +1,29 @@
 body {
-    margin: 0;
+  margin: 0;
+  background-image: url("images/robert-lukeman-_RBcxo9AU-U-unsplash.jpg");
+  /* height: 100vh; */
+  background-size: cover;
+  backdrop-filter: blur(2px);
+}
+
+.container {
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+  background-color: #1f2937;
+  padding: 115px 0 0 50px;
+}
+
+.heading {
+  font-family: "Karla", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  color: #ffffff;
+  width: 360px;
+}
+
+.heading span {
+    color: #4ADF86;
+    ;
 }
