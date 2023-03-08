@@ -4,10 +4,12 @@ let generateEl = document.getElementById("generate");
 let passwordOneEl = document.getElementById("passwordOne");
 let passwordTwoEl = document.getElementById("passwordTwo");
 let passwordLengthEl = document.getElementById("password-length-el");
+let hiddenEl = document.getElementById("hidden");
 
 function generatePassword() {
     passwordOneEl.textContent = randomPassword();
     passwordTwoEl.textContent = randomPassword();
+    removeProperty()
 }
 
 function randomPassword() {
@@ -21,6 +23,10 @@ function randomPassword() {
         password += characters[randomNumber];
     }
     return password;
+}
+
+function removeProperty() {
+    hiddenEl.style.setProperty("display", "block");
 }
 
 // This will enable the copy on click on the password buttons!
